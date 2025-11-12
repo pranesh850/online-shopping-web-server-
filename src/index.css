@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin:0; padding:0; background:#f5f5f5; }
+.container { max-width:1000px; margin:20px auto; padding:16px; background:white; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05); }
+.navbar { display:flex; align-items:center; justify-content:space-between; padding:12px 16px; background:#222; color:white; border-radius:8px; }
+.nav-links a { color:white; margin-left:12px; text-decoration:none; }
+.product-grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(220px,1fr)); gap:12px; }
+.card { border:1px solid #eee; padding:12px; border-radius:8px; background:white; }
+.btn { display:inline-block; padding:8px 12px; border-radius:6px; border:none; cursor:pointer; }
+.btn-primary { background:#007bff; color:white; }
+.btn-outline { background:transparent; border:1px solid #007bff; color:#007bff; }
+.form-group { margin-bottom:12px; }
+input, button, select { font-size:14px; padding:8px; }
